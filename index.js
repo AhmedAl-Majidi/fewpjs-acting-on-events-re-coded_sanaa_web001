@@ -10,7 +10,7 @@ let dodger = document.getElementById("dodger");
  if (left > 0) {
    dodger.style.left = `${left - 1}px`;
  }
- 
+
 }
 
 function moveDodgerRight() {
@@ -20,7 +20,7 @@ function moveDodgerRight() {
  if (left < 360) {
    dodger.style.left = `${left + 1}px`;
  }
- 
+
 }
 
 document.addEventListener("keydown", function(e) {
